@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/image_cocktail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/didact_gothic"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/majito_mockrail"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+</FrameLayout>
+
+

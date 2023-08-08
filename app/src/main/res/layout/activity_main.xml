@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="top"
+    android:background="@color/white"
     android:orientation="vertical"
     android:weightSum="2"
     tools:context=".MainActivity">
@@ -26,7 +27,7 @@
         android:layout_margin="10dp"
         android:fontFamily="@font/didact_gothic"
         android:text="@string/my_cockteils"
-        android:textColor="@color/black"
+        android:textColor="@color/black_figma"
         android:textSize="36sp" />
 
     <LinearLayout
@@ -40,6 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/didact_gothic"
+            android:textColor="@color/black_figma"
             android:text="@string/add_your_first_n_cocktail_here" />
 
 
